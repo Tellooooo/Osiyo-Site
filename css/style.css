@@ -1,0 +1,640 @@
+/* Bosh Sahifa */
+
+.container {
+    padding: 10px;
+}
+
+.bosh__sahifa {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color: #bfd9f2;
+    display: inline-block;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    margin-left: 200px;
+}
+
+.bosh__menu{
+    display: inline-block;
+    position:absolute;
+    top: 0px;
+    right: 400px; 
+    display: flex;     
+}
+
+.bosh__menu a{
+    display: inline-block;
+}
+
+.menu {
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.qabul button {
+    position: absolute;
+    top: 25px;
+    right: 220px;
+    background-color: #0065c9;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 50px;
+    display: inline-block;
+}
+
+/* /Bosh Sahifa*/
+
+/* Sarlavha */
+
+.image {
+    display: inline-block;
+    background-image: url(../img/unversity.jpg);
+    width: 100%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.image__text {
+    position: absolute;
+    top: 350px;
+    margin-left: 920px;
+    font-weight: bold;
+}
+
+.image__text1 {
+    position: absolute;
+    top: 450px;
+    margin-left: 920px;
+    font-weight: bold;
+}
+
+.image__button {
+    position: absolute;
+    top: 620px;
+    left: 940px;
+    background-color: #0065c9;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 55px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.image__button1 {
+    position: absolute;
+    top: 620px;
+    right: 940px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 55px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.axborot__tizimi {
+    position: absolute;
+    top: 850px;
+    left: 690px;
+}
+
+.button1 {
+    position: absolute;
+    background-color: #bfd9f2;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 45px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.button2 {
+    position: absolute;
+    left: 280px;
+    background-color: #bfd9f2;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 45px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.button3 {
+    position: absolute;
+    left: 565px;
+    background-color: #bfd9f2;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 45px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.button4 {
+    position: absolute;
+    width: 270px;
+    left: 910px;
+    background-color:#bfd9f2;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 45px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.text__button1 {
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    font-size: 20px;
+    left: -40px;
+}
+
+.text__button2 {
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    font-size: 20px;
+    left: 240px;
+}
+
+.text__button3 {
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    font-size: 20px;
+    left: 550px;
+}
+
+.text__button4 {
+    position: absolute;
+    width: 300px;
+    top: 60px;
+    font-size: 20px;
+    left: 900px;
+}
+
+/* Universitet haqida malumotlar */
+
+.oxu__malumot {
+    position: absolute;
+}
+
+.oxu {
+    position: absolute;
+    margin-top: -600px;
+    left: 1050px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.oxu1 {
+    position: absolute;
+    margin-top: -450px;
+    width: 1200px;
+    left: 730px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.oxu__rasm {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.Rasmli__qism {
+    display: inline-block;
+}
+
+.rasm1 {
+    width: 650px;
+    height: 850px;
+    border: inherit;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: relative;
+    top: 0px;
+    left: 250px;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+}
+
+.rasm1 img {
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.rasm2 {
+    width: 650px;
+    height: 850px;
+    border: inherit;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: relative;
+    top: 29px;
+    left: 280px;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+}
+
+.rasm2 img {
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+.rasm3 {
+    width: 650px;
+    height: 850px;
+    border: inherit;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: relative;
+    top: 0px;
+    left: 310px;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+}
+
+.rasm3 img {
+    border-radius: 5px;
+    width: 600px;
+    height: 600px;
+}
+
+/* Universitetga virtual sayohat*/
+
+.sarlavha1 {
+    text-align: center;
+    margin-top: 800px;
+    font-size: 60px;
+}
+
+.rasmlar img {
+    width: 60%;
+    margin-left: 500px;
+    border-radius: 1%;
+}
+
+.rasmlar1 {
+    width: 1700px;
+    margin-left: 489px;
+    border-radius: 1%;
+    margin-top: 8px;
+
+}
+
+.rasmlar1 img {
+    width: 368px;
+    margin-left: 10px;
+    border-radius: 3%;
+    height: 230px;
+}
+
+/* Video */
+
+.sarlavha2 {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 35px;
+}
+
+.video {
+    width: 60%;
+    margin-left: 300px;
+    border-radius: 1%;
+}
+
+/* Bakalavr */
+
+.sarlavha3 {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 35px;
+}
+
+.yonalishlar {
+    position: relative;
+    background-color: white;
+    height: 1000px;
+}
+
+.a1 {
+    position: absolute;
+    width: 650px;
+    height: 850px;
+    background-color: #BFD9F2;
+    display: inline-block;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 140px;
+    box-shadow: 0px 1px 16px 0px rgba(108, 100, 133, 0.808); 
+}
+
+.b1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 92px;
+    font-weight: bold;
+    color: #171130;
+}
+
+.c1 {
+    font-size: 35px;
+    margin-left: 30px;
+    height: 30px;
+    color: #5a5480;
+    text-align: center;
+}
+
+.d1 {
+    border: none;
+    background-color: #0065C9;
+    padding: 25px 60px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.7s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 190px;
+    margin-top: 110px;
+}
+
+.a2 {
+    position: absolute;
+    right: 945px;
+    width: 650px;
+    height: 850px;
+    background-color: #BFD9F2;
+    display: inline-block;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 200px;
+    box-shadow: 0px 1px 16px 0px rgba(108, 100, 133, 0.808); 
+}
+
+.b2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 92px;
+    font-weight: bold;
+    color: #171130;
+}
+
+.c2 {
+    font-size: 35px;
+    margin-left: 30px;
+    height: 30px;
+    color: #5a5480;
+    text-align: center;
+}
+
+.d2 {
+    border: none;
+    background-color: #0065C9;
+    padding: 25px 60px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.7s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.a3 {
+    position: absolute;
+    right: 200px;
+    width: 650px;
+    height: 850px;
+    background-color: #BFD9F2;
+    display: inline-block;
+    border-radius: 5%;
+    margin-top: 80px;
+    margin-left: 140px;
+    box-shadow: 0px 1px 16px 0px rgba(108, 100, 133, 0.808); 
+}
+
+.b3 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 92px;
+    font-weight: bold;
+    color: #171130;
+}
+
+.c3 {
+    font-size: 35px;
+    margin-left: 30px;
+    height: 30px;
+    color: #5a5480;
+    text-align: center;
+}
+
+.d3 {
+    border: none;
+    background-color: #0065C9;
+    padding: 25px 60px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.7s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 190px;
+    margin-top: 110px;
+}
+
+/* Magistratura */
+
+.sarlavha4 {
+    text-align: center;
+    margin-top: 00px;
+    font-size: 35px;
+}
+
+.sarlavha5 {
+    text-align: center;
+    margin-top: 00px;
+    font-size: 35px;
+}
+
+.litsenziya {
+    margin-left: 800px;
+}
+
+/* Qabul shartlari */
+
+.sarlavha6 {
+    text-align: center;
+    margin-top: 00px;
+    font-size: 35px;
+    background-color: white;
+}
+
+.oxu__shart {
+    background-color: white;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.rasmli__qism {
+    display: inline-block;
+}
+
+.rasm11 {
+    width: 650px;
+    height: 850px;
+    border: inherit;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+}
+
+.rasm11 img {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.rasm22 {
+    width: 650px;
+    height: 850px;
+    border: inherit;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: absolute;
+    top: 29px;
+    left: 1000px;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+}
+
+.rasm22 img {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.rasm33 {
+    width: 650px;
+    height: 850px;
+    border: inherit;
+    border-radius: 5px;
+    padding-left: 20px;
+    position: absolute;
+    top: 30px;
+    left: 1700px;
+    display: inline-block;
+    background-color: white;
+    font-size: 25px;
+}
+
+.rasm33 img {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.bottom__shart1 {
+    position: absolute;
+    width: 350px;
+    left: 910px;
+    background-color:#0065c9;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 35px 55px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: -200px;
+}
+
+.bottom__shart2 {
+    position: absolute;
+    width: 300px;
+    left: 1310px;
+    background-color:#0065c9;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 35px 55px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: -200px;
+}
+
+/* Savol - Javoblar */
+
+.savol__j {
+    background-color: #171130;
+    width: 100%;
+    height: 800px;
+    margin-top: -57px;
+}
+
+.sarlavha7 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+    color: white;
+}

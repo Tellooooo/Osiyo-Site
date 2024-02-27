@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>loyiha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .accordion {
+            background-color: white;
+            color: #444;
+            cursor: pointer;
+            padding: 20px;
+            width: 60%;
+            border: 20px;
+            text-align: center;
+            outline: none;
+            font-size: 35px;
+            transition: 0.4s;
+        }
+
+        .active,
+        .accordion:hover {
+            background-color: #ccc;
+        }
+
+        .panel {
+            padding: 0 18px;
+            text-align: center;
+            display: none;
+            color: #444;
+            width: 60%;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body style="background-color: #bfd9f2;">
+    <!--Bosh Sahifa-->
+    <div class="container" style="background-color: #bfd9f2;">
+        <div class="bosh__sahifa">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="bosh__menu">
+                <ul>
+                    <li class="menu">
+                        <a href="#about">
+                            Biz haqimizda
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#faculty">
+                            Ta'lim yo'nalishlari
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#condition">
+                            Qabul 2023-2024
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#faq">
+                            Savol-javoblar
+                        </a>
+                    </li>
+                    <li class="menu">
+                        <a href="#faq">
+                            Bo'sh ish o'rinlar
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="qabul">
+                <button>
+                    Qabul
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--/Bosh Sahifa-->
+    <!--Sarlavha-->
+    <div class="container" style="background-color: #bfd9f2;">
+        <div class="sarlavha">
+            <div class="image">
+                <h1 class="image__text"> Osiyo Xalqaro Universiteti</h1>
+                <h3 class="image__text1"> Jamiyatning madaniy va iqtisodiy rivojlanishi <br>
+                    uchun professional kadrlar ta’lim dargohi </h3>
+                <button class="image__button">Biz bilan aloqaga chiqish</button>
+                <button class="image__button1">Ro'yhatdan o'tish</button>
+                <div class="axborot__tizimi">
+                    <button class="button1">
+                        hemis.oxu.uz
+                    </button>
+                    <button class="button2">
+                        student.oxu.uz
+                    </button>
+                    <button class="button3">
+                        hemis.uz/yo'riqnoma
+                    </button>
+                    <button class="button4">
+                        Video yo'riqnoma
+                    </button>
+                    <p class="text__button1">
+                        HEMIS OTM axborot tizimi</br>
+                        (professor-o'qituvchilar uchun)
+                    </p>
+                    <p class="text__button2">
+                        HEMIS Student axborot tizimi</br>
+                        (talabalar uchun)
+                    </p>
+                    <p class="text__button3">
+                        HEMIS axborot tizimida ishlash</br>
+                        bo'yicha yo'riqnoma
+                    </p>
+                    <p class="text__button4">
+                        HEMIS axborot tizimida ishlash</br>
+                        bo'yicha video yo'riqnoma
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Sarlavha-->
+
+    <!-- Universitet haqida malumotlar-->
+    <div class="container" style="background-color: #bfd9f2;">
+        <div class="oxu__malumot">
+            <div class="Yozuvli_qism">
+                <h1 class="oxu">
+                    OSIYO XALQARO UNIVERSITETIDA
+                </h1>
+                <h3 class="oxu1">
+                    O'z karyerasini keyingi bosqichga ko'tarishga intilayotgan har qanday yoshdagi talabalar<br>
+                    uchun mo'ljallangan universitet.<br>
+                    Xalqaro darajadagi usullar bilan sifatli ta'lim kafolatlangan.<br>
+                    Talabalar uchun yuqori ko'rsatkichli tashkilotlarda muvaffaqiyatli bo'lishda zarur<br>
+                    bo'ladigan bilimlar ko'p yillik tajribaga ega o'qituvchilar tomonidan beriladi.
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="background-color: #bfd9f2;">
+        <div class="oxu__rasm">
+            <div class="Rasmli__qism">
+                <div class="rasm1">
+                    <h1>
+                        Sifatli ta'lim
+                    </h1>
+                    <img src="img/rasm1.jpg" alt="rasm1">
+                    <p>
+                        Pedagog kadrlarimiz:<br>
+                        Fan nomzodlari, fan doktorlar va professorlar
+                    </p>
+                </div>
+                <div class="rasm2">
+                    <h1>
+                        Zamonaviy infrastruktura
+                    </h1>
+                    <img src="img/rasm2.jpg" alt="rasm2">
+                    <p>
+                        -150 dan oshiq kompyuter texnikasi <br>
+                        -Televizorlar, laboratoriyalarga ega o'quv xonalari <br>
+                        -Shahar markazida joylashuv
+                    </p>
+                </div>
+                <div class="rasm3">
+                    <h1>
+                        Davlat diplomi
+                    </h1>
+                    <img src="img/rasm3.jpg" alt="rasm3">
+                    <p>
+                        -O'zbekiston Respublikasida to'liq tan <br>
+                        olinadigan diplom
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Universitet haqida malumotlar-->
+
+    <!-- Universitetga virtual sayohat-->
+    <div class="container" style="background-color: #bfd9f2;">
+        <div class="sarlavha1">
+            <h1 class="sarlavha1">
+                Universitetga virtual sayohat
+            </h1>
+        </div>
+        <div class="rasmlar">
+            <img src="./img/1.jpg" alt="rasm1">
+            <div class="rasmlar1">
+                <img src="./img/2.jpg" alt="rasm2">
+                <img src="./img/3.jpg" alt="rasm3">
+                <img src="./img/4.jpg" alt="rasm4">
+                <img src="./img/5.jpg" alt="rasm5">
+            </div>
+        </div>
+    </div>
+    <!-- /Universitetga virtual sayohat-->
+
+    <!-- Video -->
+    <div class="container" style="background-color: #bfd9f2;">
+        <div class="sarlavha2">
+            <h1>
+                OSIYO XALQARO UNIVERSITETIDA
+            </h1>
+        </div>
+        <div class="video">
+            <video controls>
+                <source src="./img/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <!-- /Video -->
+
+    <!-- Bakalavr-->
+    <div class="container" style="background-color: white;">
+        <div class="sarlavha3">
+            <h1>
+                Bakalavr:
+            </h1>
+        </div>
+        <div class="bakalavr">
+            <div class="yonalishlar" style="background-color: white;">
+                <div class="a1">
+                    <h1 class="b1">Pedagogika va Psixologiya</h1>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> Ta'lim turi: kunduzgi va sirtqi</p> <br>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> Ta'lim tili: o'zbek va rus</p> <br>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> To'lov miqdori(kunduzgi shakl): 17.000.000 so'm
+                    </p> <br>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> To'lov miqdori(sirtqi shakl): 12.000.000 so'm
+                    </p> <br>
+                    <button class="d1"> Ro'yxatdan o'tish</button>
+                </div>
+                <div class="a2">
+                    <h1 class="b2">Boshlang'ich Ta'lim</h>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> Ta'lim turi: kunduzgi va sirtqi</p> <br>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> Ta'lim tili: o'zbek va rus</p> <br>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> To'lov miqdori(kunduzgi shakl): 17.000.000
+                            so'm</p> <br>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> To'lov miqdori(sirtqi shakl): 12.000.000
+                            so'm</p> <br>
+                        <button class="d2"> Ro'yxatdan o'tish</button>
+                </div>
+                <div class="a3">
+                    <h1 class="b3">Maktabgacha ta'lim</h1>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> Ta'lim turi: kunduzgi va sirtqi</p> <br>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> Ta'lim tili: o'zbek va rus</p> <br>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> To'lov miqdori(kunduzgi shakl): 17.000.000 so'm
+                    </p> <br>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> To'lov miqdori(sirtqi shakl): 12.000.000 so'm
+                    </p> <br>
+                    <button class="d3"> Ro'yxatdan o'tish</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Bakalavr-->
+
+    <!-- Magistratura-->
+    <div class="container" style="background-color: white;">
+        <div class="sarlavha4">
+            <h1>
+                Magistratura:
+            </h1>
+        </div>
+        <div class="Magistratura">
+            <div class="yonalishlar" style="background-color: white;">
+                <div class="a1">
+                    <h1 class="b1">Ta'lim va tarbiya nazariyasi va metodikasi(boshlang'ich ta'lim) <br> -Magistratura
+                    </h1>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> Ta'lim turi: kunduzgi va masofaviy</p> <br>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> Ta'lim tili: o'zbek va rus</p> <br>
+                    <p class="c1"><i class="material-icons">&#xe876;</i> To'lov miqdori(kunduzgi shakl): 22.000.000 so'm
+                    </p> <br>
+                    <button class="d1"> Ro'yxatdan o'tish</button>
+                </div>
+                <div class="a2">
+                    <h1 class="b2">Pedagogika va Psixologiya <br> -Magistratura</h>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> Ta'lim turi: kunduzgi va masofaviy</p> <br>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> Ta'lim tili: o'zbek va rus</p> <br>
+                        <p class="c2"><i class="material-icons">&#xe876;</i> To'lov miqdori(kunduzgi shakl): 22.000.000
+                            so'm</p> <br>
+                        <button class="d2"> Ro'yxatdan o'tish</button>
+                </div>
+                <div class="a3">
+                    <h1 class="b3">Iqtisodiyot(tarmoqlar va sohalar bo'yicha) <br> -Magistratura</h1>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> Ta'lim turi: kunduzgi va masofaviy</p> <br>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> Ta'lim tili: o'zbek va rus</p> <br>
+                    <p class="c3"><i class="material-icons">&#xe876;</i> To'lov miqdori(kunduzgi shakl): 22.000.000 so'm
+                    </p> <br>
+                    <button class="d3"> Ro'yxatdan o'tish</button>
+                </div>
+            </div>
+        </div>
+        <div class="sarlavha5">
+            <h1>
+                Litsenziya:
+            </h1>
+        </div>
+        <div class="litsenziya">
+            <img src="./img/litsenziya.jpg" alt="litsenziya">
+        </div>
+    </div>
+    <!--/Magistratura-->
+
+    <!-- Qabul shartlari -->
+    <div class="container" style="background-color: white;">
+        <div class="sarlavha6">
+            <h1>
+                2023-2024-o'quv yili uchun <br> qabul shartlari​​
+            </h1>
+        </div>
+        <div class="oxu__shart">
+            <div class="rasmli__qism">
+                <div class="rasm11">
+                    <img src="img/shart1.jpg" alt="rasm1">
+                    <h1>
+                        Hujjatlarni topshirish
+                    </h1>
+                    <p>
+                        1.Passport nusxasi
+                    </p>
+                    <p>
+                        2.Asl diplom va ilovasi
+                    </p>
+                    <p>
+                        3. 3x4 hajmdagi fotosurat
+                    </p>
+                </div>
+                <div class="rasm22">
+                    <img src="img/shart2.jpg" alt="rasm2">
+                    <h1>
+                        Suhbat
+                    </h1>
+                    <p>
+                        Imtihon kuni professor o'qituvchilarimizning <br> suhbatidan o'ting.
+                    </p>
+                </div>
+                <div class="rasm33">
+                    <img src="img/shart3.jpg" alt="rasm3">
+                    <h1>
+                        Test
+                    </h1>
+                    <p>
+                        Tanlagan yo'nalishingiz bo'yicha test <br> savollarini yeching.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="shart__bottom">
+            <button class="bottom__shart1">
+                Biz bilan aloqaga chiqing
+            </button>
+            <button class="bottom__shart2">
+                Ro'yxatdan o'tish
+            </button>
+        </div>
+    </div>
+    <!-- /Qabul shartlari -->
+
+    <!-- Savol-Javoblar -->
+    <div class="container">
+        <div class="savol__j">
+            <div class="sarlavha7">
+                <h1>
+                    SAVOL - JAVOBLAR
+                </h1>
+                <h2>
+                    Tez - tez uchraydigan savollar va javobllar
+                </h2>
+                <button class="accordion"> Universitet qayerda joylashgan ? </button>
+                <div class="panel">
+                    <p>Buxoro shahar, "Yangiobod MFY", G`ijduvon ko'chasi, 74-uy.</p>
+                </div>
+
+                <button class="accordion"> Universitet litsenziya olganmi ?</button>
+                <div class="panel">
+                    <p>Vazirlar Mahkamasi huzuridagi Ta'lim sifatini nazorat qilish davlat inspeksiyasi tomonidan 2022-yil 10-noyabr kuni 047757-raqamli <br>
+                        litsenziya Osiyo Xalqaro Universitetiga oliy ta'lim xizmatlarini ko'rsatish uchun berildi.</p>
+                </div>
+
+                <button class="accordion"> Universitet diplomi O'zbekiston va boshqa davlatlarga ham amal qiladimi ?</button>
+                <div class="panel">
+                    <p>Ha. Universitet davlat oliygohlari bilan bir xil namunadagi diplom taqdim etadi.</p>
+                </div>
+
+                <button class="accordion"> O'qishni boshqa oliygohlardan Osiyo Xalqaro Universitetga ko'chirsa bo'ladimi ?</button>
+                <div class="panel">
+                    <p>Ha, faqat universitetning talab va tartibini bajarish kerak.</p>
+                </div>
+
+                <button class="accordion"> O'qishni ko'chirishda nechinchi kursga ko'chira olaman ?</button>
+                <div class="panel">
+                    <p>OXUga faqat 3-kursgacha ko'chirish mumkin.</p>
+                </div>
+
+                <script>
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
+
+                    for (i = 0; i < acc.length; i++) {
+                        acc[i].addEventListener("click", function () {
+                            this.classList.toggle("active");
+                            var panel = this.nextElementSibling;
+                            if (panel.style.display === "block") {
+                                panel.style.display = "none";
+                            } else {
+                                panel.style.display = "block";
+                            }
+                        });
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+    <!-- /Savol-Javoblar -->
+
+
+
+</body>
+
+</html>
